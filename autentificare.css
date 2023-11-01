@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+.container {
+	width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e25e5e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling title tags */
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Resetting elements to their default values */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Background and container styling */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-image: url("fundal.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling title tags */
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Styling the form */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Styling labels and data entry fields */
+label {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+/* Registration button styling */
+.button {
+	position: relative;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #2b93c4;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: none; /* Adăugă această linie pentru a elimina umbra */
+}
+
+input[type="submit"]:hover {
+	background-color: #4be6ee;
+	box-shadow: none; /* Adăugă această linie pentru a elimina umbra */
+}
+
+/* Styling alert messages */
+.alert {
+	color: #ff0000;
+	margin-top: 10px;
+}
